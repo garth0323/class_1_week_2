@@ -1,0 +1,20 @@
+Deck
+  Deal
+  Shuffle
+Dealer
+  New hand
+  Hit or Stay
+  Hit
+  Stand
+  Blackjack
+  count hand
+Player
+  Hitx
+  Standx
+  New handx
+  Win, Lose, or Push
+  Blackjack
+  count handx
+    
+
+
