@@ -10,7 +10,7 @@ class Card
   end
   
   def pretty_output
-    puts "The #{face_value} of #{find_suit}"
+    "The #{face_value} of #{find_suit}"
   end
   
   def to_s
