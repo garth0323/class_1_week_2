@@ -1,0 +1,36 @@
+1.
+@a = 2 =>@a is an instance variable with a Fixnum value of 2
+user = User.new => user is a new member of the User class .new is telling User class to do this action
+user.name => user is the member created above .name is calling a method of User class called name
+user.name = "Joe"  user is the same member mentioned above .name is a setter method and it is being set to "Joe"
+
+2.
+A class mixins a module by using the 'include' work in a class. All methods form the module
+will be available in the class.
+
+3.
+a class variable cannot be modified when inherited in another class. An instance variable will be modified in each
+inherited class
+
+4.
+attr_accessor sets a variable to automatically have a get and set method.
+
+5.
+Dog is a class and this is calling some_method
+
+6.
+subclassing inherits all methods and variable of a hierarchal class of objects. A module does something similar but is
+a behavior and not a noun. Inheritance from many modules possible, only one class.
+
+7.
+class User
+  def initialize(name)
+    @name = name
+  end
+end
+
+8.
+Yes
+
+9.
+binding.pry
