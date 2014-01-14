@@ -189,7 +189,7 @@ class Blackjack
       
       if response == '2'
         puts "#{player.name} chose to stay."
-        next
+        break
       end
       
       #hit
